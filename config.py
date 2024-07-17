@@ -7,10 +7,10 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID",20229919))
-API_HASH = getenv("API_HASH","b547ff380e39681f2da92249e3fdaa3f")
-BOT_TOKEN = getenv("BOT_TOKEN","6170245471:AAEP_E_it4Gfm4HLdd8u2ggMFtSF0ADMZIc")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lavena:LavenaBot@lavena.mvr32if.mongodb.net/?retryWrites=true&w=majority")
+API_ID = int(getenv("API_ID",21235866))
+API_HASH = getenv("API_HASH","d8ddfd490220abc6bd8e858f4318dfff")
+BOT_TOKEN = getenv("BOT_TOKEN","6388217317:AAHkwI2MjvPVmUc3JJWRx6c2EbGyg0tqOQo")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://KylieMusic:KylieMusic@kyliemusic.uhkbztz.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1080))
 LOGGER_ID = int(getenv("LOGGER_ID", -1001858609412))
 OWNER_USERNAME = getenv("OWNER_USERNAME","TheKidPersonOp")
@@ -33,7 +33,7 @@ PROMO = getenv("PROMO","https://graph.org/file/7ecd7f937fe61a540c8a7.jpg")
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
-STRING1 = getenv("STRING_SESSION", "BQE0rx8AsHtYaogQ_7himBNanfAtaLFCP8h1dpgeMBaFnPLy26aKcg9OLKqmCs8fqcTh99CLtLLQdsIliU5IKmWXg3uFDGaja45DmFxPX2BrPAMK5o7JXybE7ewex5vvVGr_7NPxKCf2jYnLUcNEq0_SFaFJTdm6Yr0J_idPq7y2FDFd2Fd0snE_IzsDXtpg_j0F2iJ9w7skDZTPQtNeNAjCb7QY1BesO27zXSExCy0HaK34u2D9hkicE6rAlWfLtE3XkriyQqTDHN7pvGKxCwyC5cvpt9DW152iGVYuz4MMrsn4-guy25ipP-MgcIiTBErz0LRXoEgm_sGyk1sUl48BwbhAmgAAAAFU0fiJAA")
+STRING1 = getenv("STRING_SESSION", "BQFECJoAArB9FEvAf0cZukoet9kNgGaAXgN8vJcmYFxU2O3rhX3adhVhMJbIUY__ACDOd2GTUOwg6X8y0jGx5C_4_cCmyZ1pL5o_X-FwldftiOsNJtC6M5Q5tRPkDL4bc23v_iLPSjRf-I3ZqY5PSZMsm8R4XvtDjoXiPUL7MFwcYXGwYzCmlNkWmgVB65KXEzVOlr4MNHmlnLb1-hY_1jJ6Icj1CCYTutruy7Vco03G4pH7nckBsh3-aPd7KLqTXS2kiYwon_ILk2vs4xV3d0fitKQOSdi5dW9ddHivdIq7HKywZazUN7dnjdmFvJac9CfhFzUkIt777SjSKV6KBbg6vWscdgAAAAGTG7xxAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
