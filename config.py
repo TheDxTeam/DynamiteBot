@@ -9,7 +9,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID",21235866))
 API_HASH = getenv("API_HASH","d8ddfd490220abc6bd8e858f4318dfff")
-BOT_TOKEN = getenv("BOT_TOKEN","6388217317:AAHkwI2MjvPVmUc3JJWRx6c2EbGyg0tqOQo")
+BOT_TOKEN = getenv("BOT_TOKEN","6388217317:AAGtNqyi5qa-tNqmCam01nXluSS74Kb5PE0")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://KylieMusic:KylieMusic@kyliemusic.uhkbztz.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1080))
 LOGGER_ID = int(getenv("LOGGER_ID", -1001858609412))
